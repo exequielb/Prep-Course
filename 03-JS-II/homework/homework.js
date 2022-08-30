@@ -190,11 +190,7 @@ function esPrimo(numero) {
       }else   {
       esprimo= true;
       }
-    }
-  
-       
-
-  
+    }  
   
     
     return esprimo;
