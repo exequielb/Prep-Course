@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código: 
-    return str;
+  return str;
   
 }
 
@@ -277,16 +277,18 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
     var vocales="aeiou";
-      if ( letra.length>1) {
+      if ( letra.length >= 0) {
         return "Dato incorrecto";
 
         }else{
+          
           for (let i = 0; i < vocales.length; i++) {
             if (vocales[i]==letra){
               return "Es vocal";
             }
             
           }
+          
           return "Dato incorrecto";
 
         }
